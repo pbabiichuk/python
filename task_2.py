@@ -17,5 +17,5 @@ c = int(input('Введите третье число: '))
 d = int(input('Введите четвертое число: '))
 sum_1 = int(a + b)
 sum_2 = int(c + d)
-division = int(sum_1 / sum_2)
+division = sum_1 / sum_2
 print('Результат: ', division)
