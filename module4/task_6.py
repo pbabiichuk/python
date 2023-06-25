@@ -16,7 +16,7 @@ a = int(input('Кубик Кости: '))
 b = int(input('Кубик владельца: '))
 c = a + b
 print('Сумма:', c)
-if a > b:
+if a >= b:
     print('Игрок платит!')
 else:
     print('Владелец платит!')
